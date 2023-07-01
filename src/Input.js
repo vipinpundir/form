@@ -30,8 +30,8 @@ const Input = () => {
 
     const onSubmitForm = (values, props) => {
         console.log(values)
-        const data = "Name="+values.name + ", " + "Country="+values.country + ", " + "Gender="+values.gender + ", " + "Address="+values.address + ", " + "HobbiesInterest="+values.hobbiesInterest
-        alert(data)
+        // const data = "Name="+values.name + ", " + "Country="+values.country + ", " + "Gender="+values.gender + ", " + "Address="+values.address + ", " + "HobbiesInterest="+values.hobbiesInterest
+        // alert(data)
         props.resetForm()
     };
 
